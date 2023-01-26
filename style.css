@@ -1,0 +1,227 @@
+body {
+    background-color: rgb(21, 21, 21);
+}
+
+/*.logo1{
+    padding-left: 50px;
+    padding-top: 50px;
+}*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-left: 30px;
+    padding-right: 70px;
+    padding-top: 25px;
+    color: aliceblue;
+}
+
+.div123 {
+    position: relative;
+    margin-left: 150px;
+}
+
+/*.btn {
+    border: 1px solid white;
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
+    transition-duration: 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 21, 21);
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid white;
+}
+.btn:hover{
+    color: black;
+}
+*/
+
+.btn {
+    border: none;
+    position: relative;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: rgb(21, 21, 21);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(21, 21, 21);
+    color: rgb(163, 59, 59);
+}
+
+.hero1 {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 5px 50px 0px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.hero1 h1 {
+    margin-bottom: 5px;
+    bottom: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.hero1 img {
+    float: right;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 570px;
+}
+
+.hero2 {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 50px 1px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.hero2 h3 {
+    margin-top: 3px;
+    color: rgb(226, 226, 226);
+}
+
+.hero3 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 1px 520px 7px 0px;
+    font-size: 20px;
+}
+
+.hero3 h6 {
+    margin-top: 4px;
+    top: 1px;
+    line-height: 18px;
+    color: rgb(203, 203, 203);
+}
+
+/*.btn1 {
+    padding: 15px 32px;
+    margin-left: 150px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(23, 23, 23);
+    border: 2px solid rgb(255, 255, 255);
+    transition-duration: 0.4s;
+}
+
+.btn1:hover {
+    background-color: rgb(124, 124, 124);
+    color: black;
+}*/
+
+.btn1 {
+    border: none;
+    position: relative;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: rgb(21, 21, 21);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+
+.btn1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/*.btn2 {
+    border: none;
+    position: relative;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin-left: 70px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 650;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: rgb(242, 242, 242);
+    color: rgb(21, 21, 21);
+    border: 2px solid #ffffff;
+}
+
+.btn2:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 25px #000000;
+}*/
+
+/*right btn*/
+.btn2 {
+    position: relative;
+    color: rgb(21, 21, 21);
+    background-color: #ffffff;
+    padding: 16px 32px;
+    text-align: center;
+    margin-left: 70px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.btn2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transition: 0.3s;
+}
+
+.btn2:hover span {
+    padding-right: 20px;
+}
+
+.btn2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
